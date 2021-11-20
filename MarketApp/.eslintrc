@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "env": {
+        "es6": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+        "plugin:prettier/recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "prettier"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "max-len": ["error", { "code": 100 }],
+        "prettier/prettier": "error",
+        "no-console": "off",
+        "camelcase": "warn",
+        "import/extensions": "off",
+        "import/no-unresolved": "off"
+    }
+}
